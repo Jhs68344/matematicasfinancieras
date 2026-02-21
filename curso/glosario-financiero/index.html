@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glosario Financiero | Matemáticas Financieras Colombia</title>
+    <meta name="description" content="Glosario financiero completo: definiciones claras de tasas, VAN, TIR, WACC, anualidades, amortización y conceptos clave de matemáticas financieras.">
 
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Glosario Financiero</h1>
+    <p>Curso completo de Matemáticas Financieras</p>
+</header>
+
+<nav>
+    <a href="../../index.html">Inicio</a>
+    <a href="../index.html">Curso</a>
+</nav>
+
+<section>
+
+    <h2>Buscar término</h2>
+    <input type="text" id="buscador" placeholder="Buscar concepto..." style="padding:10px; width:100%; max-width:500px; margin-bottom:20px;">
+
+    <h2>Definiciones</h2>
+
+    <ul id="lista-glosario">
+
+        <li><strong>Anualidad:</strong> Serie de pagos iguales realizados en intervalos regulares.</li>
+
+        <li><strong>Amortización:</strong> Pago gradual de una deuda mediante cuotas periódicas.</li>
+
+        <li><strong>Capital:</strong> Valor inicial del dinero sobre el cual se calculan intereses.</li>
+
+        <li><strong>Descuento financiero:</strong> Proceso de traer un valor futuro a valor presente.</li>
+
+        <li><strong>Fecha focal:</strong> Momento elegido para llevar todos los flujos y compararlos.</li>
+
+        <li><strong>Interés simple:</strong> Interés calculado únicamente sobre el capital inicial.</li>
+
+        <li><strong>Interés compuesto:</strong> Interés que se capitaliza, generando intereses sobre intereses.</li>
+
+        <li><strong>Tasa efectiva:</strong> Tasa que realmente se aplica en un período determinado.</li>
+
+        <li><strong>Tasa nominal:</strong> Tasa anual que debe dividirse según el número de periodos de capitalización.</li>
+
+        <li><strong>VAN (Valor Actual Neto):</strong> Diferencia entre el valor presente de ingresos y egresos.</li>
+
+        <li><strong>TIR (Tasa Interna de Retorno):</strong> Tasa que hace que el VAN sea igual a cero.</li>
+
+        <li><strong>WACC:</strong> Costo promedio ponderado del capital de una empresa.</li>
+
+        <li><strong>VPN:</strong> Valor presente neto, equivalente al VAN.</li>
+
+        <li><strong>Gradiente aritmético:</strong> Serie donde los pagos aumentan en una cantidad constante.</li>
+
+        <li><strong>Gradiente geométrico:</strong> Serie donde los pagos crecen en un porcentaje constante.</li>
+
+    </ul>
+
+</section>
+
+<footer>
+    <p>© 2026 Matemáticas Financieras Colombia</p>
+</footer>
+
+<script>
+document.getElementById("buscador").addEventListener("keyup", function() {
+    let filtro = this.value.toLowerCase();
+    let items = document.querySelectorAll("#lista-glosario li");
+
+    items.forEach(function(item) {
+        let texto = item.textContent.toLowerCase();
+        item.style.display = texto.includes(filtro) ? "" : "none";
+    });
+});
+</script>
+
+</body>
+</html>

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anualidades | Matemáticas Financieras Colombia</title>
-    <meta name="description" content="Aprende anualidades con ejemplos prácticos en Colombia.">
+    <meta name="description" content="Aprende a calcular anualidades con ejemplo completamente resuelto paso a paso en Colombia.">
 
     <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
+
 <body>
 
 <header>
@@ -21,23 +22,85 @@
 </nav>
 
 <section>
-    <h2>¿Qué son las Anualidades?</h2>
+
+    <h2>¿Qué es una Anualidad?</h2>
     <p>
-        Son pagos periódicos iguales realizados en intervalos regulares.
+        Una anualidad es una serie de pagos iguales realizados en intervalos regulares
+        durante un periodo determinado.
     </p>
 
-    <h2>Fórmula del valor actual</h2>
-    <p>VA = R × [ 1 − (1+i)^−n ] / i</p>
+    <h2>Fórmula del Valor Actual de una Anualidad Ordinaria</h2>
 
-    <h2>Ejemplo práctico</h2>
     <p>
-        Ahorros mensuales constantes durante un periodo determinado.
+        VA = R × [ 1 − (1 + i)<sup>-n</sup> ] / i
+    </p>
+
+    <ul>
+        <li><strong>VA:</strong> Valor actual</li>
+        <li><strong>R:</strong> Cuota o pago periódico</li>
+        <li><strong>i:</strong> Tasa de interés por período</li>
+        <li><strong>n:</strong> Número de períodos</li>
+    </ul>
+
+    <h2>Ejemplo completamente resuelto</h2>
+
+    <p>
+        Una persona solicita un préstamo de $5.000.000
+        a una tasa del 1.5% mensual durante 24 meses.
+        Calcular el valor de la cuota mensual.
+    </p>
+
+    <p><strong>Datos:</strong></p>
+    <ul>
+        <li>VA = 5.000.000</li>
+        <li>i = 0.015</li>
+        <li>n = 24</li>
+    </ul>
+
+    <h3>Paso 1: Despejar la fórmula para hallar la cuota (R)</h3>
+
+    <p>
+        R = VA × [ i / (1 − (1 + i)<sup>-n</sup>) ]
+    </p>
+
+    <h3>Paso 2: Calcular (1 + i)<sup>-n</sup></h3>
+
+    <p>
+        (1.015)<sup>-24</sup> = 0.698
+    </p>
+
+    <h3>Paso 3: Sustituir en la fórmula</h3>
+
+    <p>
+        R = 5.000.000 × [ 0.015 / (1 − 0.698) ]
+    </p>
+
+    <p>
+        R = 5.000.000 × [ 0.015 / 0.302 ]
+    </p>
+
+    <p>
+        R = 5.000.000 × 0.04967
+    </p>
+
+    <p>
+        <strong>Cuota mensual ≈ $248.350</strong>
+    </p>
+
+    <h2>Interpretación</h2>
+
+    <p>
+        La persona deberá pagar aproximadamente $248.350 cada mes
+        durante 24 meses para cancelar completamente el préstamo.
     </p>
 
     <h2>Aplicación en Colombia</h2>
+
     <p>
-        Fondos de ahorro, pensiones y créditos.
+        Las anualidades se utilizan en créditos de consumo,
+        leasing, financiación empresarial y planes de ahorro.
     </p>
+
 </section>
 
 <footer>

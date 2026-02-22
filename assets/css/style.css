@@ -11,27 +11,27 @@ body {
 }
 
 /* ============================= */
-/* HEADER */
+/* HEADER (MÁS DELGADO) */
 /* ============================= */
 
 header {
   background-color: #0d1b2a;
   color: white;
-  padding: 38px 20px;
+  padding: 18px 16px;
   text-align: center;
 }
 
 .logo{
-  max-width: 420px;
+  max-width: 240px;
   height: auto;
   display: block;
-  margin: 0 auto 12px auto;
+  margin: 0 auto 8px auto;
   filter: drop-shadow(0 4px 10px rgba(0,0,0,0.25));
 }
 
 header p {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   opacity: 0.95;
 }
 
@@ -98,7 +98,42 @@ ul {
 }
 
 /* ============================= */
-/* TARJETA CONTACTO */
+/* TEMAS EN LOS QUE DAMOS APOYO */
+/* ============================= */
+
+.support-topics{
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.support-topics h3{
+  margin: 0 0 12px 0;
+  color: #0d1b2a;
+}
+
+.topics-links{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px 18px;
+}
+
+.topics-links a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #1b263b;
+}
+
+.topics-links a:hover{
+  color: #0d1b2a;
+  text-decoration: underline;
+}
+
+/* ============================= */
+/* TARJETA CONTACTO ORIGINAL */
 /* ============================= */
 
 .contact-card{
@@ -110,6 +145,20 @@ ul {
   box-shadow: 0 15px 30px rgba(0,0,0,0.12);
   border: 1px solid rgba(0,0,0,0.06);
   text-align: center;
+}
+
+/* ============================= */
+/* CONTACTO MÁS DISCRETO (FINAL) */
+/* ============================= */
+
+.contact-card--compact{
+  max-width: 680px;
+  margin: 28px auto;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: none;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.85);
 }
 
 /* ============================= */
@@ -216,6 +265,7 @@ footer {
 /* ============================= */
 
 @media (max-width: 768px) {
+
   nav a {
     display: block;
     margin: 10px 0;
@@ -236,6 +286,10 @@ footer {
   }
 
   .logo{
-    max-width: 320px;
+    max-width: 200px;
+  }
+
+  .topics-links{
+    grid-template-columns: 1fr;
   }
 }

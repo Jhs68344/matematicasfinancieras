@@ -278,3 +278,10 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* ============================= */
+/* BOTON ACTIVO EN MENU */
+/* ============================= */
+
+nav a.active {
+  color: #ffd60a;
+}

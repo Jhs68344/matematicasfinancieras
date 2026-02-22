@@ -167,3 +167,46 @@ footer {
         padding: 12px 14px;
     }
 }
+/* Botón WhatsApp en menú */
+.nav-whatsapp{
+  background: #25D366;
+  color: white !important;
+  padding: 8px 14px;
+  border-radius: 999px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* Cuadro elegante contacto */
+.contact-card{
+  background: white;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Formulario */
+input, textarea{
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.2);
+  font-size: 15px;
+}
+
+button{
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #1b263b;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: translateY(-1px);
+}

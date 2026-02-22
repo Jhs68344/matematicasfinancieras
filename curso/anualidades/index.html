@@ -26,11 +26,11 @@
     <h2>¿Qué es una Anualidad?</h2>
     <p>
         Una anualidad es una serie de pagos iguales realizados en intervalos regulares
-        durante un periodo determinado.
+        durante un periodo determinado. Se utiliza en créditos, arriendos, pensiones,
+        cuotas de compra y muchos escenarios financieros.
     </p>
 
     <h2>Fórmula del Valor Actual de una Anualidad Ordinaria</h2>
-
     <p>
         VA = R × [ 1 − (1 + i)<sup>-n</sup> ] / i
     </p>
@@ -42,11 +42,11 @@
         <li><strong>n:</strong> Número de períodos</li>
     </ul>
 
-    <h2>Ejemplo completamente resuelto</h2>
+    <h2>Ejemplo completamente resuelto (hallar la cuota R)</h2>
 
     <p>
-        Una persona solicita un préstamo de $5.000.000
-        a una tasa del 1.5% mensual durante 24 meses.
+        Una persona solicita un préstamo de <strong>$5.000.000</strong>
+        a una tasa del <strong>1.5% mensual</strong> durante <strong>24 meses</strong>.
         Calcular el valor de la cuota mensual.
     </p>
 
@@ -58,47 +58,48 @@
     </ul>
 
     <h3>Paso 1: Despejar la fórmula para hallar la cuota (R)</h3>
-
     <p>
         R = VA × [ i / (1 − (1 + i)<sup>-n</sup>) ]
     </p>
 
     <h3>Paso 2: Calcular (1 + i)<sup>-n</sup></h3>
-
     <p>
-        (1.015)<sup>-24</sup> = 0.698
+        (1 + i) = 1.015
+    </p>
+    <p>
+        (1.015)<sup>24</sup> ≈ 1.429
+    </p>
+    <p>
+        (1.015)<sup>-24</sup> = 1 / 1.429 ≈ 0.700
     </p>
 
-    <h3>Paso 3: Sustituir en la fórmula</h3>
-
+    <h3>Paso 3: Calcular el denominador</h3>
     <p>
-        R = 5.000.000 × [ 0.015 / (1 − 0.698) ]
+        1 − (1 + i)<sup>-n</sup> = 1 − 0.700 = 0.300
+    </p>
+
+    <h3>Paso 4: Calcular la cuota R</h3>
+    <p>
+        R = 5.000.000 × [ 0.015 / 0.300 ]
+    </p>
+    <p>
+        R = 5.000.000 × 0.05 = 250.000
     </p>
 
     <p>
-        R = 5.000.000 × [ 0.015 / 0.302 ]
-    </p>
-
-    <p>
-        R = 5.000.000 × 0.04967
-    </p>
-
-    <p>
-        <strong>Cuota mensual ≈ $248.350</strong>
+        <strong>Cuota mensual aproximada: $250.000</strong>
     </p>
 
     <h2>Interpretación</h2>
-
     <p>
-        La persona deberá pagar aproximadamente $248.350 cada mes
-        durante 24 meses para cancelar completamente el préstamo.
+        La cuota mensual es el pago fijo que permite cancelar el préstamo en 24 meses al 1.5% mensual.
+        En una amortización real, cada cuota incluye una parte de intereses y una parte de abono a capital.
     </p>
 
     <h2>Aplicación en Colombia</h2>
-
     <p>
-        Las anualidades se utilizan en créditos de consumo,
-        leasing, financiación empresarial y planes de ahorro.
+        Las anualidades se usan en créditos de libre inversión, vehículos, tarjetas (cuando se difiere),
+        préstamos educativos y financiación de compras.
     </p>
 
 </section>
@@ -107,10 +108,11 @@
     <p>© 2026 Matemáticas Financieras Colombia</p>
 </footer>
 
+<a class="whatsapp-float"
+   href="https://wa.me/573168726521?text=Hola%2C%20necesito%20ayuda%20con%20matematicas%20financieras.%20Tema%3A%20anualidades.%20Tengo%20__%20ejercicios.%20Gracias"
+   target="_blank" rel="noopener">
+  📲 WhatsApp
+</a>
+
 </body>
 </html>
-<a class="whatsapp-float"
-   href="https://wa.me/573168726521?text=Hola%2C%20necesito%20ayuda%20con%20matematicas%20financieras.%20Tema%3A%20_____%20.%20Tengo%20__%20ejercicios.%20Gracias"
-   target="_blank" rel="noopener">
-  WhatsApp
-</a>

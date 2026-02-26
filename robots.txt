@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jhs68344.github.io/matematicasfinancieras/sitemap.xml
+Sitemap: https://www.matematicasfinancieras.lat/sitemap.xml

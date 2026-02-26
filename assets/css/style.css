@@ -1,287 +1,278 @@
+/* ============================================================
+   ESTILOS GENERALES - MATEMÁTICAS FINANCIERAS LATAM
+   ============================================================ */
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f4f6f9;
-  color: #1b263b;
-  line-height: 1.6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #1b263b;
+    line-height: 1.6;
 }
 
-/* HEADER (40% más delgado) */
+/* HEADER (Estilizado y profesional) */
 header {
-  background-color: #0d1b2a;
-  color: white;
-  padding: 12px 15px; /* antes ~20px, ahora ~40% menos */
-  text-align: center;
+    background-color: #0d1b2a;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+    border-bottom: 3px solid #ffd60a;
 }
 
-.logo{
-  max-width: 650px;
-  height: auto;
-  display: block;
-  margin: 0 auto 8px auto;
-  filter: drop-shadow(0 6px 14px rgba(0,0,0,0.35));
+.logo {
+    max-width: 280px; /* Tamaño optimizado para elegancia */
+    height: auto;
+    display: block;
+    margin: 0 auto 12px auto;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
 }
 
 header p {
-  margin: 0;
-  font-size: 16px;
-  opacity: 0.95;
+    margin: 5px 0;
+    font-size: 17px;
+    opacity: 0.95;
+    font-weight: 300;
 }
 
+/* NAVEGACIÓN */
 nav {
-  background-color: #1b263b;
-  padding: 14px 12px;
-  text-align: center;
+    background-color: #1b263b;
+    padding: 14px 12px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 nav a {
-  color: white;
-  margin: 0 12px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
 }
 
-nav a:hover {
-  color: #ffd60a;
+nav a:hover, nav a.active {
+    color: #ffd60a;
 }
 
-.nav-whatsapp{
-  background: #25D366;
-  color: white !important;
-  padding: 8px 14px;
-  border-radius: 999px;
-  margin-left: 10px;
-  font-weight: bold;
+.nav-whatsapp {
+    background: #25D366;
+    color: white !important;
+    padding: 8px 18px;
+    border-radius: 999px;
+    margin-left: 10px;
+    transition: transform 0.2s;
 }
 
+.nav-whatsapp:hover {
+    transform: scale(1.05);
+    background: #20ba5a;
+}
+
+/* SECCIONES */
 section {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 h2 {
-  color: #0d1b2a;
+    color: #0d1b2a;
+    font-size: 28px;
+    border-left: 5px solid #ffd60a;
+    padding-left: 15px;
+    margin-bottom: 25px;
 }
 
-h3{
-  margin-top: 22px;
+h3 {
+    color: #1b263b;
+    margin-top: 25px;
 }
 
+/* LISTAS Y TEMAS */
 ul {
-  padding-left: 22px;
+    padding-left: 25px;
 }
 
-/* Temas en 2 columnas */
-.topics-columns{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px 28px;
+.topics-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 35px;
+    list-style-type: square;
 }
 
-/* Nota parciales */
-.nota-parciales{
-  margin-top: 18px;
-  background: #fff4d6;
-  border: 1px solid rgba(0,0,0,0.08);
-  padding: 14px;
-  border-radius: 12px;
+/* NOTA PARCIALES */
+.nota-parciales {
+    margin-top: 30px;
+    background: #fff4d6;
+    border: 1px solid #ffd60a;
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 15px;
+    color: #856404;
 }
 
-/* BUZÓN PRO */
-.form-box{
-  background: white;
-  border-radius: 18px;
-  padding: 24px;
-  max-width: 780px;
-  margin: 18px auto 40px auto;
-  box-shadow: 0 14px 30px rgba(0,0,0,0.10);
-  border: 1px solid rgba(0,0,0,0.06);
+/* FORMULARIO / BUZÓN PRO */
+.form-box {
+    background: white;
+    border-radius: 18px;
+    padding: 30px;
+    max-width: 850px;
+    margin: 25px auto;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.05);
 }
 
-.form-subtitle{
-  margin-top: 0;
-  margin-bottom: 18px;
-  color: #2b3a55;
+.form-subtitle {
+    margin-bottom: 20px;
+    color: #2b3a55;
+    font-weight: 500;
 }
 
-.contact-form label{
-  display: block;
-  font-weight: bold;
-  margin: 10px 0 6px 0;
-}
-
-.form-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px 16px;
-}
-
-input, textarea{
-  width: 100%;
-  box-sizing: border-box;
-  padding: 12px 12px;
-  border-radius: 12px;
-  border: 1px solid rgba(0,0,0,0.18);
-  font-size: 15px;
-  outline: none;
-  background: #fbfcfe;
-}
-
-input:focus, textarea:focus{
-  border-color: rgba(27,38,59,0.55);
-  box-shadow: 0 0 0 4px rgba(27,38,59,0.08);
-}
-
-button{
-  margin-top: 14px;
-  padding: 12px 16px;
-  border: none;
-  border-radius: 12px;
-  background: #1b263b;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-button:hover{
-  transform: translateY(-1px);
-}
-
-/* FOOTER + contacto en 1 renglón */
-footer {
-  background-color: #0d1b2a;
-  color: white;
-  padding: 22px 20px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.footer-contact{
-  margin: 8px 0 0 0;
-  font-size: 14px;
-  opacity: 0.92;
-}
-
-/* WhatsApp flotante */
-.whatsapp-float {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 9999;
-  background: #25D366;
-  color: white;
-  padding: 14px 18px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.30);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  nav a {
+.contact-form label {
     display: block;
-    margin: 10px 0;
-  }
-
-  section {
-    padding: 30px 15px;
-  }
-
-  .topics-columns{
-    grid-template-columns: 1fr;
-  }
-
-  .form-grid{
-    grid-template-columns: 1fr;
-  }
-
-  .logo{
-    max-width: 320px;
-  }
-
-  .whatsapp-float{
-    right: 15px;
-    bottom: 15px;
-    padding: 12px 14px;
-  }
-}
-/* ============================= */
-/* DASHBOARDS */
-/* ============================= */
-
-.dash-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-  margin-top: 14px;
+    font-weight: bold;
+    margin: 15px 0 6px 0;
+    font-size: 14px;
 }
 
-.dash-card{
-  background: #ffffff;
-  border-radius: 16px;
-  overflow: hidden;
-  border: 1px solid rgba(0,0,0,0.06);
-  box-shadow: 0 14px 30px rgba(0,0,0,0.10);
-  margin: 0;
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-.dash-img{
-  width: 100%;
-  height: auto;
-  display: block;
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #d1d9e6;
+    font-size: 15px;
+    background: #fdfeff;
+    transition: 0.3s;
 }
 
-.dash-caption{
-  padding: 14px 16px;
-  color: #1b263b;
+input:focus, textarea:focus {
+    border-color: #1b263b;
+    box-shadow: 0 0 0 4px rgba(27,38,59,0.1);
+    outline: none;
 }
 
-.price-box{
-  background: white;
-  border-radius: 16px;
-  padding: 18px 18px;
-  max-width: 780px;
-  margin: 14px auto 0 auto;
-  border: 1px solid rgba(0,0,0,0.06);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+button {
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #1b263b;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
 }
 
-.price-big{
-  font-size: 20px;
-  margin: 0 0 8px 0;
+button:hover {
+    background: #0d1b2a;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-.small-note{
-  margin-top: 10px;
+/* DASHBOARDS Y TARJETAS */
+.dash-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 20px;
 }
 
-.cta-btn{
-  display: inline-block;
-  margin-top: 10px;
-  background: #1b263b;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 12px 16px;
-  border-radius: 12px;
+.dash-card {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
 }
 
-.cta-btn:hover{
-  transform: translateY(-1px);
+.dash-card:hover {
+    transform: translateY(-5px);
 }
 
-@media (max-width: 768px){
-  .dash-grid{
-    grid-template-columns: 1fr;
-  }
+.dash-img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
-/* ============================= */
-/* BOTON ACTIVO EN MENU */
-/* ============================= */
 
-nav a.active {
-  color: #ffd60a;
+.dash-caption {
+    padding: 18px;
+    color: #1b263b;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0d1b2a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-contact {
+    margin: 15px 0;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+/* WHATSAPP FLOTANTE */
+.whatsapp-float {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 9999;
+    background: #25D366;
+    color: white;
+    padding: 16px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 10px 25px rgba(37,211,102,0.4);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+/* RESPONSIVE (Móviles) */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 12px 0;
+    }
+
+    .nav-whatsapp {
+        margin-left: 0;
+        display: inline-block;
+    }
+
+    .topics-columns, .form-grid, .dash-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        max-width: 220px;
+    }
+
+    section {
+        padding: 35px 15px;
+    }
 }

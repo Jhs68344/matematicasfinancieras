@@ -1,47 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Página principal -->
   <url>
-    <loc>https://jhs68344.github.io/matematicasfinancieras/</loc>
+    <loc>https://www.matematicasfinancieras.lat/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Página Curso general -->
   <url>
-    <loc>https://jhs68344.github.io/matematicasfinancieras/curso/</loc>
+    <loc>https://www.matematicasfinancieras.lat/curso/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Subtemas del curso -->
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/valor-dinero-tiempo/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/interes-simple/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/interes-compuesto/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/amortizacion/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/inflacion-colombia/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/creditos-colombia/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/anualidades/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/equivalencia-financiera/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/descuento-financiero/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/conversion-tasas/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/gradientes/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/casos-practicos/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/ejercicios-resueltos/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/aplicaciones-empresariales/</loc></url>
-  <url><loc>https://jhs68344.github.io/matematicasfinancieras/curso/glosario-financiero/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/valor-dinero-tiempo/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/interes-simple/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/interes-compuesto/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/amortizacion/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/inflacion-colombia/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/creditos-colombia/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/anualidades/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/equivalencia-financiera/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/descuento-financiero/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/conversion-tasas/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/gradientes/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/casos-practicos/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/ejercicios-resueltos/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/aplicaciones-empresariales/</loc></url>
+  <url><loc>https://www.matematicasfinancieras.lat/curso/glosario-financiero/</loc></url>
 
-  <!-- Precio -->
   <url>
-    <loc>https://jhs68344.github.io/matematicasfinancieras/precio/</loc>
+    <loc>https://www.matematicasfinancieras.lat/precio/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Dashboards -->
   <url>
-    <loc>https://jhs68344.github.io/matematicasfinancieras/dashboards/</loc>
+    <loc>https://www.matematicasfinancieras.lat/dashboards/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
